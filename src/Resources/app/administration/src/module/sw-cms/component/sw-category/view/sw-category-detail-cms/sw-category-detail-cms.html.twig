@@ -1,0 +1,6 @@
+{% block sw_category_detail_cms_form %}
+    {# Remove #}
+    <template v-if="category.customFields.melv_category_layout_enable_override">
+        {% parent() %}
+    </template>
+{% endblock %}
